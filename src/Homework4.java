@@ -5,7 +5,7 @@ import java.util.Scanner;
 //public class
 public class Homework4 {
 
-    Scanner scanner = new Scanner (System.in);
+    Scanner scanner = new Scanner (System.in); //input 
 
     public void Results (){
 

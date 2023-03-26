@@ -4,6 +4,7 @@
 public class Homework3 {
     Scanner scanner= new Scanner(System.in);
 
+    //name roll no marks variables
   public void GradeStudents () {
 
       System.out.println("Please enter your Name:");

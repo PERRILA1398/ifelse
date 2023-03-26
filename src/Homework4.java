@@ -32,7 +32,7 @@ public class Homework4 {
     }
     public static void main(String []args)
     {
-        Homework4 homework4 =new Homework4 ();
+        Homework4 homework4 =new Homework4 (); //new object
         homework4.Results();
     }
 

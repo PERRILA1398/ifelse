@@ -25,7 +25,7 @@ public class Homework9 {
         System.out.println("Please type in your basic salary: ");
         int d = scanner.nextInt();
 
-        int e = d * c / 100;
+        int e = d * c / 100; //percentage formula
 
 
         if (c >= 35 && c <= 20) {
@@ -44,8 +44,8 @@ public class Homework9 {
 
     public static void main(String []args){
 
-        Homework9 homework9 = new Homework9 ();
-        homework9.Sales();
+        Homework9 homework9 = new Homework9 (); //new object
+        homework9.Sales(); //static main method
 
     }
 

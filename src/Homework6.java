@@ -15,7 +15,7 @@ public class Homework6 {
      System.out.println("Please enter your Basic Salary:");
      int c = scanner.nextInt();
 
-     int d = c*10/100;
+     int d = c*10/100; //percentage method
      System.out.println("Your HRA is:" +d);
 
      int e= c*8/100;

@@ -13,7 +13,7 @@ public class Homework10 {
         String alpha = scanner.next();
 
 
-        if (alpha.equals("a")) {
+        if (alpha.equals("a")) { // comparing string input
             System.out.println(" The name of the city is Agra ");
 
         } else if (alpha.equals("b")) {

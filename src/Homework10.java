@@ -1,16 +1,18 @@
 
 
-import java.util.Objects;
 import java.util.Scanner; // to import scanner in java
 
 
-public class Homework10 {
+public class Homework10
+ {
     Scanner scanner = new Scanner(System.in); //to get input from the user
 
-    public void City() {
+    //nonstatic method and variables
+      public void City()
+    {
 
         System.out.println("Please type any alphabet from a-f : ");
-        String alpha = scanner.next();
+        String alpha = scanner.next(); //requesting input from the user
 
 
         if (alpha.equals("a")) { // comparing string input
@@ -32,7 +34,7 @@ public class Homework10 {
 
         } else if (alpha.equals("f")) {
             System.out.println(" The name of the city is Florida ");
-        }else {
+        }else                         {
             System.out.println("Sorry given alphabets city name not available");
         }
 

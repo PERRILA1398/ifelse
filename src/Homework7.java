@@ -1,10 +1,14 @@
 
+
+//importing scanner
 import java.util.Scanner;
 
-public class Homework7 {
+public class Homework7
+   {
     Scanner scanner=new Scanner(System.in);
 
-    public void Numbers (){
+    public void Numbers ()
+      {
 
         System.out.println("Please enter first int number:");
         int a = scanner.nextInt();
@@ -24,11 +28,14 @@ public class Homework7 {
         int Total = a + b+c+d+e;
         double Average= Total/5.0;
         System.out.println("Your average is"+" " +Average);
-    }
-    public static void main(String []args){
+      }
+        public static void main(String []args) //static main method
+        {
 
-        Homework7 homework7= new Homework7();// changing to static
+        Homework7 homework7= new Homework7();
         homework7.Numbers();
-    }
+
+        }
+
 
     }

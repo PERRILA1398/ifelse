@@ -1,19 +1,21 @@
 
-import java.util.Scanner;
+import java.util.Scanner; //importing scanner
 
-public class Homework5 {
+public class Homework5
+{
 
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in); //new scanner object
 
-    public void Interchange() {
+    public void Interchange()
+    {
 
         System.out.println("Please enter your int Number1:");
-        int a = scanner.nextInt();
+        int a = scanner.nextInt(); //requesting input from user
 
         System.out.println("Please print your int Number2");
                 int b = scanner.nextInt();
 
-                //adding new variable
+                //adding new variable c to execute the requirement
            int c=a;
            a=b;
            b=c;
@@ -26,9 +28,12 @@ public class Homework5 {
 
 
     }
-    public static void main(String []args){
+    //static main method
+    public static void main(String []args)
+      {
         Homework5 homework5 = new Homework5();
         homework5.Interchange ();
 
-    }
+      }
+
 }

@@ -1,10 +1,16 @@
+
+porting scanner
+
 import java.util.Scanner;
 
-
-public class Homework13 {
+       //public class variables
+public class Homework13
+ {
     Scanner scanner = new Scanner(System.in); //to get input from the user
 
-    public void Calculation() {
+        public void Calculation()
+
+      {
 
         System.out.println("Please enter your first number: ");
         int a = scanner.nextInt();
@@ -28,11 +34,11 @@ public class Homework13 {
             System.out.println(+d);
         } else if (c.equals("*"))
             System.out.println(+d);
-    }
+      }
 
-    public static void main(String[] args) { //main method
+    public static void main(String[] args) { //static main method
 
-        Homework13 homework13 = new Homework13(); //static method
+        Homework13 homework13 = new Homework13(); //adding  new object
         homework13.Calculation();
     }
-}
+ }

@@ -1,22 +1,26 @@
 
 
-import java.util.Scanner;
+import java.util.Scanner; //importing scanner
 
 //public class
-public class Homework4 {
+public class Homework4
+{
 
-    Scanner scanner = new Scanner (System.in); //input
+    Scanner scanner = new Scanner (System.in); //new scanner object
 
-    public void Results (){
+    public void Results () //non static variables and method
+    {
 
         System.out.println("Please enter your Science grade:");
-        int Science = scanner.nextInt();
+        int Science = scanner.nextInt(); //requesting input from user
 
         System.out.println("Please enter your Maths grade:");
         int Maths = scanner.nextInt();
 
         System.out.println("Please enter your English grade:");
         int English = scanner.nextInt();
+
+        //formula for total and average
         int Total = Science + Maths + English;
         double Average= Total/3.0;
 
@@ -30,6 +34,8 @@ public class Homework4 {
 
 
     }
+
+    //static main method
     public static void main(String []args)
     {
         Homework4 homework4 =new Homework4 (); //new object

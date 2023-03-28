@@ -1,16 +1,19 @@
 
+//importing scanner
 
 import java.util.Scanner;
 
 
-public class Homework8 {
+public class Homework8 //nonstatic variables and method
+ {
 
-    Scanner scanner= new Scanner(System.in);
+    Scanner scanner= new Scanner(System.in); //new scanner object
 
-    public void Positive(){
+    public void Positive()  //nonstatic method
+    {
 
         System.out.println("Please input any number: ");
-        int a= scanner.nextInt();
+        int a= scanner.nextInt(); //requesting input from user
 
         if ( a> 0){
             System.out.println("Positive");
@@ -24,7 +27,9 @@ public class Homework8 {
 
     }
 
-    public static void main(String []args){
+    //static main method
+    public static void main(String []args)
+    {
         Homework8 homework8= new Homework8();
         homework8.Positive();
 
@@ -32,4 +37,5 @@ public class Homework8 {
 
 
     }
-}
+
+ }

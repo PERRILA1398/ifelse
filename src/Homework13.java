@@ -1,5 +1,5 @@
 
-porting scanner
+//importing scanner
 
 import java.util.Scanner;
 
@@ -32,11 +32,15 @@ public class Homework13
             System.out.println(+d);
         } else if (c.equals("/")) {
             System.out.println(+d);
-        } else if (c.equals("*"))
+        } else if (c.equals("*")) {
             System.out.println(+d);
+        }
+
       }
 
-    public static void main(String[] args) { //static main method
+       //static main method 
+    public static void main(String[] args)
+    {
 
         Homework13 homework13 = new Homework13(); //adding  new object
         homework13.Calculation();

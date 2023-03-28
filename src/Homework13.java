@@ -29,11 +29,11 @@ public class Homework13
         if (c.equals("+")) {
             System.out.println(+d);
         } else if (c.equals("-")) {
-            System.out.println(+d);
+            System.out.println(+e);
         } else if (c.equals("/")) {
-            System.out.println(+d);
+            System.out.println(+f);
         } else if (c.equals("*")) {
-            System.out.println(+d);
+            System.out.println(+g);
         }
 
       }

@@ -21,24 +21,24 @@ public class Homework9
         System.out.println("Please type in your name: ");
         String b = scanner.next();
 
-        System.out.println("Please type in your sales amount : ");
+        System.out.println("Please type in your sales amount in percentage: ");
         int c = scanner.nextInt();
 
         System.out.println("Please type in your basic salary: ");
         int d = scanner.nextInt();
 
+        int e= d*c/100;
+          if (c >= 35 && c<=20 )     {
 
-          if (c >= 30000 && c <= 50000)     {
-
-            System.out.println("Your sales commission for this month is:" + 35 + "%");
-        } else if (c >= 20000 && c <= 30000) {
-            System.out.println("Your sales commission for this month is:" + 20 + "%");
-        } else if (c >= 10000 && c <= 20000)  {
-            System.out.println("Your sales  commission for this month is:" +10 + "%");
-        } else if (c >= 20000 && c<= 10000 )             {
-            System.out.println("Your sales commission for this month is:" + 5  + "%");
+            System.out.println("Your sales commission for this month is:"  + "£" +e);
+        } else if (c >= 30000 && c <= 50000) {
+            System.out.println("Your sales commission for this month is:"  + "£"+ e );
+        } else if (c >= 20000 && c <= 30000)  {
+            System.out.println("Your sales  commission for this month is:"  + "£"+e);
+        } else if (c >= 10000 && c<= 20000 )             {
+            System.out.println("Your sales commission for this month is:" + "£"+ e);
         } else if (c <= 10000)             {
-            System.out.println("Your sales commission for this month is:" + 2 + "%") ;
+            System.out.println("Your sales commission for this month is:" + "£"+ e) ;
         }
     }
 

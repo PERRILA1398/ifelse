@@ -28,16 +28,16 @@ public class Homework9
         int d = scanner.nextInt();
 
         int e= d*c/100;
-          if (c >= 35 && c<=20 )     {
+          if (c >= 35 && c<=20 )       {
 
             System.out.println("Your sales commission for this month is:"  + "£" +e);
-        } else if (c >= 30000 && c <= 50000) {
+        } else if (c >= 20 && c <= 10) {
             System.out.println("Your sales commission for this month is:"  + "£"+ e );
-        } else if (c >= 20000 && c <= 30000)  {
+        } else if (c >= 10 && c <=5)   {
             System.out.println("Your sales  commission for this month is:"  + "£"+e);
-        } else if (c >= 10000 && c<= 20000 )             {
+        } else if (c >= 5 && c<= 2 )   {
             System.out.println("Your sales commission for this month is:" + "£"+ e);
-        } else if (c <= 10000)             {
+        } else if (c <= 2)             {
             System.out.println("Your sales commission for this month is:" + "£"+ e) ;
         }
     }
